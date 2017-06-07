@@ -1,0 +1,22 @@
+Format of custom input:
+
+First line contains n which means you're going to enter an nXn matrix for yourself.
+Next n lines contain the elements of each row of this matrix.
+'.' represents floor
+'D' represents destination(should be only one in number)
+'X' represents wall
+'S' represents sokoban player(should be only one in number)
+'B' represents box
+
+An example input which is meant for 8X8 matrix(after you enter 2, you can directly copy paste this on command line):
+8
+.......S
+.DX.....
+..X.X..X
+..X.XX.X
+..X.X...
+.....XB.
+..X.....
+XXX.....
+
+Note: You can create your own input matrix of size nXn and give custom input on the command line. Take care that there is some constraint on value of n: 3<=n<=8.
